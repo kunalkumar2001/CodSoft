@@ -31,7 +31,7 @@ def clear():
 # To create root window
 tk=Tk()
 tk.configure(background="grey")
-tk.title('Calculator by codewithcurious.com')
+tk.title('Calculator')
 tk.geometry('280x280')
 
 # To store the values entered by the user
