@@ -41,7 +41,7 @@ lengthLabel.grid(pady=5)
 passwordField=Entry(root,width=25,bd=2,font=Font)
 passwordField.grid(row=1, column=2, padx=10)
 
-lengthLabel=Label(root,text='Enter Password Length',font=Font,bg='gray20',fg='white')
+lengthLabel=Label(root,text='Enter Password Length :',font=Font,bg='gray20',fg='white')
 lengthLabel.grid(pady=5)
 
 length_Box=Spinbox(root,from_=8,to_=18,width=5,font=Font)
